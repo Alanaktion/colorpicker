@@ -1,0 +1,34 @@
+{
+  "name": "colorpicker",
+  "version": "0.1.0",
+  "description": "This is a simple color picker designed to create color palettes that have predictable contrast and are colorblind-safe.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /colorpicker",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alanaktion/colorpicker.git"
+  },
+  "author": "Alan Hardman <alan@phpizza.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alanaktion/colorpicker/issues"
+  },
+  "homepage": "https://github.com/Alanaktion/colorpicker#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "autoprefixer": "^9.6.5",
+    "gh-pages": "^2.1.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^6.1.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "tailwindcss": "^1.1.3"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
