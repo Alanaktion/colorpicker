@@ -4,7 +4,7 @@
   "description": "This is a simple color picker designed to create color palettes that have predictable contrast and are colorblind-safe.",
   "scripts": {
     "start": "parcel src/index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /colorpicker",
+    "predeploy": "rm -rf dist && parcel build src/index.html --public-url /colorpicker",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
