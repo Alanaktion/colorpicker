@@ -9,11 +9,15 @@ For color generation and analysis, we used two excellent libraries:
 - [chroma.js](https://github.com/gka/chroma.js)
 - [color-blind](https://github.com/skratchdot/color-blind)
 
-The application was built using Vue.js + Tailwind with Parcel:
+The application was built using React + Tailwind with Parcel:
 
 - [react](https://reactjs.org)
 - [tailwind.css](https://tailwindcss.com)
 - [parcel](https://parceljs.org)
+
+Additional references used
+
+- [Jamie Wong's post on color](http://jamie-wong.com/post/color/)
 
 ## Building
 
